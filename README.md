@@ -12,14 +12,12 @@ A simple and interactive web-based application to manage your favorite recipes. 
 
 ## 📸 Demo Preview
 
-![App Preview](https://shorturl.at/DsfpP)
 
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - Vanilla JavaScript
 
-## 📂 File Structure
 
 ![Screenshot 2025-05-01 202236](https://github.com/user-attachments/assets/7ac9e80d-2126-4c06-8592-54a4fce68758)
 
