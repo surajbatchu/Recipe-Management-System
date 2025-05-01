@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://shorturl.at/DsfpP'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    max-height: 90vh;
+    overflow-y: auto; /* Scroll inside container if too many recipes */
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  #savedRecipes {
+    margin-top: 20px;
+  }
+  
+  .recipe-card {
+    background: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .recipe-card button {
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #007bff;
+  }
+  
+  .recipe-card .delete-btn {
+    background: #dc3545;
+  }
+  

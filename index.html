@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Recipe Management System</h1>
+
+  <form id="recipeForm">
+    <input type="text" id="recipeName" placeholder="Recipe Name" required>
+
+    <input type="text" id="methodType" placeholder="Method Type (e.g., Baking, Frying)" required>
+
+    <textarea id="ingredients" placeholder="Ingredients" rows="4" required></textarea>
+
+    <textarea id="description" placeholder="Description / Steps" rows="4" required></textarea>
+
+    <div class="buttons">
+      <button type="button" onclick="saveRecipe()">Save</button>
+      <button type="reset">Clear</button>
+    </div>
+  </form>
+
+  <div id="savedRecipes">
+    <h2>Saved Recipes</h2>
+    <div id="recipeList"></div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
